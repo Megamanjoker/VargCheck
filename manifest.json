@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "VargCheck",
+    "version": "1.0.0",
+    "description": "",
+    "browser_action":{
+        "default_icon":{
+            "16":"not-live.png"
+        }
+    },
+    "background":{
+        "scripts":["background.js"]
+    }
+}
